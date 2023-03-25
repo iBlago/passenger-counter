@@ -1,5 +1,8 @@
 div {
-    max-wdith: 40%;
+    max-wdith: 60%;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid black;
 }
 
 body {
@@ -8,6 +11,7 @@ body {
     font-family: Arial, Verdana, Serif;
     font-weight: bold;
     text-align: center;
+    height: calc(100vh - 1px);
 }
 
 h1 {
