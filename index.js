@@ -1,10 +1,15 @@
+let countEl = document.getElementById("count");
 let count = 0;
-
+let saveEl = document.getElementById("save-el");
 
 function increment() {
-  
  count++;
-  
+  countEl.textContent = count;
 }
 
-document.getElementById("count").innerText = count;
+function save() {
+ let savedCount = count + " - ";
+ saveEl.textContent += savedCount;
+ count = 0;
+ countEl.textContent = count;
+}
