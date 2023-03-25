@@ -1,7 +1,7 @@
 body {
-    background-image: url("station.jpg");
+    background-image: url("station.jpeg");
     background-size: cover;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Arial, Verdana, Serif;
     font-weight: bold;
     text-align: center;
 }
